@@ -1,0 +1,36 @@
+/* */
+img {
+  max-width: 100%;
+}
+
+.navbar--paragraph {
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 768px) {
+  .navbar--paragraph {
+    font-size: 2rem;
+  }
+}
+
+.new--arrival--paragraph {
+  max-width: 500px;
+}
+#watch {
+  max-width: 400px;
+}
+.showcase--class--container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .showcase--class--container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .showcase--class--container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
